@@ -221,6 +221,7 @@ struct LayerHeader {
   GUID id;
   if (isDKCTF)
   {
+    uint16 unk;
     ushort count;
     struct {
         GUID guid;
